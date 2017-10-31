@@ -64,7 +64,13 @@
   });
 
 })(jQuery); // End of use strict
-
+document.getElementById('view').onclick = function() {viewMoreItems()};
+function viewMoreItems(){
+  var moreItems = document.getElementsByClassName("row-two");
+  for(var i = 0; i< moreItems.length; i= i+1){
+    moreItems[i].style.display = "block";
+  }
+};
 // Disable Google Maps scrolling
 // See http://stackoverflow.com/a/25904582/1607849
 // Disable scroll zooming and bind back the click event
