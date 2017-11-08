@@ -43,13 +43,10 @@
         </li> -->
         <li>
           <details>
-              <summary><a class="js-scroll-trigger portfolio-summary" href="#portfolio">Portfolio</a></summary>
-              <a class="portfolio-details" href="contextualinquiry.html">Contextual Inquiry</a>
-              <a class="portfolio-details" href="#portfolio">Interaction Design</a>
+              <summary><a class="js-scroll-trigger portfolio-summary" href="index.html#portfolio">Portfolio</a></summary>
+              <a class="portfolio-details active" href="contextualinquiry.html">Contextual Inquiry</a>
+              <a class="portfolio-details" href="interaction.html">Interaction Design</a>
           </details>
-        </li>
-        <li>
-          <a class="js-scroll-trigger" href="#contact" onclick=$( "#menu-close").click();>Contact</a>
         </li>
       </ul>
     </nav>
@@ -81,13 +78,20 @@
       <div class = "container">
         <div class="row">
           <div class ="col-md-8">
-            <img class="img-fluid" src="img/placeholder.png" >
+            <video class="portfolio-vid" autoplay loop>
+              <source src="img/timelapse.mov">
+              <source src="img/timelapse.mov">
+              Your browser does not support the video tag.
+            </video>
+
           </div>
           <div class ="col-md-4">
-            <h3>Project Overview</h3>
+            <h3 class="portfolio-header">Project Overview</h3>
               <p>This project was focused on the use of the contextual-inquiry interview method as applied to a consulting model. Our team of four met with a client, conducted research and interviews, brainstormed solutions and ultimately provided recommendations designed to target their specified problem. </p>
             <h3>Deliverables</h3>
             <ul>
+              <li>Presentation</li>
+              <li>Competitive Analysis</li>
               <li>Affinity Wall</li>
               <li>Recommendations</li>
             </ul>
@@ -95,71 +99,27 @@
         </div>
         <hr class="dividers">
         <br>
+        <div class ="row col-lg-12">
         <h3>Background and Problem</h3>
         <p>The Center for Japanese Studies at University of Michigan was having trouble managing the Japanese Internship Initiative, a program that connects UM students with internships in Japan. The client communicated that the central problem was that the current proccess of diseminating information to students was manual and decentralized and there was no standad method for the CJS to receive studnet applications.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
+        <h3>Research</h3>
+        <p>Before conducting interviews our team generated a comprehensive background research report. I conducted a competitive analysis wherein I benchmarked the Center for Japanese Studies' program against other international internship programs. The analysis illuminated a number of potential strengths and weaknesses within the CJS that we would explore further.</p>
+        <p>After our background research report the team constructed a set of interview protocol for the stakeholders and conducted 5 interviews with former students, internship coordinators and company conatacts to better understand the current process and its pain points.
+        After each interview our team came together to conduct interpertation sessions and generate affinity notes. Using the notes from our interpertation sessions we constructed an affinity wall and identified themes from our interviews.</p>
+        <div class="col-lg-12">
+          <img class="img-fluid in-text-img" src="img/affinitywall2.png" alt="Affinity wall of sticky notes">
+        </div>
+        <br>
+        <h3>Next Steps</h3>
+        <p>Over the next few weeks we will be working to solidify our findings and we will then present recommendations to CJS.  The project timeline is set to be completed by December 2017</p>
+        <br>
+      </div>
       </div>
 
     </section>
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto text-center">
-            <h2>My Work</h2>
-            <hr class="small">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-1.jpg">
-                  </a>
-                  <h2>Contextual Inquiry</h2>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-2.jpg">
-                  </a>
-                  <h2>Interaction Design</h2>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-3.jpg">
-                  </a>
-                  <h2>Lunch</h2>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-4.jpg">
-                  </a>
-                  <h2>Contextual Inquiry</h2>
-                </div>
-              </div>
-            </div>
-            <!-- /.row (nested) -->
-            <a href="#" class="btn btn-dark">View More Items</a>
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary text-white">
-      <div class="container text-center">
-        <h3>The buttons below are impossible to resist.</h3>
-        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-      </div>
-    </aside>
+
 
 
     <!-- Footer -->
@@ -167,46 +127,37 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <h4>
-              <strong>Start Bootstrap</strong>
-            </h4>
-            <p>3481 Melrose Place
-              <br>Beverly Hills, CA 90210</p>
             <ul class="list-unstyled">
-              <li>
-                <i class="fa fa-phone fa-fw"></i>
-                (123) 456-7890</li>
-              <li>
+              <li><a href="index.html">Home<a/><li>
+              <li>&middot;<li>
+              <li><a href="aboutme.html">About<a/><li>
+            </ul>
+            <ul class="list-unstyled">
                 <i class="fa fa-envelope-o fa-fw"></i>
-                <a href="mailto:name@example.com">name@example.com</a>
+                <a href="mailto:jacobber@umich.edu">jacobber@umich</a>
               </li>
             </ul>
             <br>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook fa-fw fa-3x"></i>
+                <a href="https://www.github.com/jberman5">
+                  <i class="fa fa-github fa-fw fa-2x"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-dribbble fa-fw fa-3x"></i>
+                <a href="https://www.linkedin.com/in/jacobberman/">
+                  <i class="fa fa-linkedin fa-fw fa-2x"></i>
                 </a>
               </li>
             </ul>
             <hr class="small">
-            <p class="text-muted">Copyright &copy; Your Website 2017</p>
+            <p class="text-muted">Copyright &copy; Jacob Berman 2017</p>
           </div>
         </div>
       </div>
-      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+  <!--    <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
         <i class="fa fa-chevron-up fa-fw fa-1x"></i>
-      </a>
+      </a> -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
